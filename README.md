@@ -1,3 +1,4 @@
+face|_attendence_useing_cnn
 <img width="1905" height="960" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/9f589cad-0261-4acb-ad9d-75728fae7449" /># face_attendence_useing_cnn
 Face recognition using CNNs (Convolutional Neural Networks) is a popular method for automated attendance systems. CNNs are particularly well-suited for image-based tasks like face recognition due to their ability to learn hierarchical features from images. An automated attendance system using CNNs typically involves detecting faces, extracting features, and then comparing those features against a database of known individuals to mark attendance. 
 Here's a more detailed explanation:
