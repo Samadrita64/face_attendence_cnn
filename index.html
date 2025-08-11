@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Attendance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Face Attendance</h1>
+        
+        <div class="camera-frame">
+            <img src="{{ url_for('video_feed') }}" alt="Live Camera Feed" />
+        </div>
+        
+        <a class="button" href="/attendance">📋 View Attendance Sheet</a>
+    </div>
+</body>
+</html>
